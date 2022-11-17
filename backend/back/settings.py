@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'back.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'vibre',
-        'USER': 'postgres',
+        # 'NAME': '',
+        'USER': 'marcos',
         'PASSWORD':'getaways',
     }
 }
