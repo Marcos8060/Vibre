@@ -51,10 +51,10 @@ const BodyOne: React.FC = () => {
           </div>
           <div className="w-7/12 h-70">
             <h1 className="text-3xl font-semibold mb-4">Top Picks</h1>
-            <div className="grid grid-cols-5 gap-8">
+            <div className="grid grid-cols-4 gap-8">
               <div>
                 <div className="bg-gray cursor-pointer rounded">
-                  <img className="w-10" src={image3} alt="" />
+                  <img className="" src={image3} alt="" />
                 </div>
                 <h1 className="font-bold text-black">Nike Air</h1>
                 <span className="text-red font-bold">ksh 1,300</span>
@@ -64,7 +64,7 @@ const BodyOne: React.FC = () => {
               </div>
               <div>
                 <div className="bg-gray rounded">
-                  <img className="w-10" src={image} alt="" />
+                  <img className="" src={image} alt="" />
                 </div>
                 <h1 className="font-bold text-black">Nike Air</h1>
                 <span className="text-red font-bold">ksh 1,300</span>
@@ -74,7 +74,7 @@ const BodyOne: React.FC = () => {
               </div>
               <div>
                 <div className="bg-gray rounded">
-                  <img className="w-10" src={image3} alt="" />
+                  <img className="" src={image3} alt="" />
                 </div>
                 <h1 className="font-bold text-black">Nike Air</h1>
                 <span className="text-red font-bold">ksh 1,300</span>
@@ -84,17 +84,7 @@ const BodyOne: React.FC = () => {
               </div>
               <div>
                 <div className="bg-gray rounded">
-                  <img className="w-10" src={image} alt="" />
-                </div>
-                <h1 className="font-bold text-black">Nike Air</h1>
-                <span className="text-red font-bold">ksh 1,300</span>
-                <span className="mx-3 line-through font-bold text-grey">
-                  ksh 1,300
-                </span>
-              </div>
-              <div>
-                <div className="bg-gray rounded">
-                  <img className="w-10" src={image3} alt="" />
+                  <img className="" src={image} alt="" />
                 </div>
                 <h1 className="font-bold text-black">Nike Air</h1>
                 <span className="text-red font-bold">ksh 1,300</span>
@@ -103,7 +93,7 @@ const BodyOne: React.FC = () => {
                 </span>
               </div>
             </div>
-            <div className="flex items-center cursor-pointer bg-red h-40 my-8 rounded p-8 scale-80 hover:scale-95 ease-in duration-500">
+            <div className="flex items-center cursor-pointer bg-red h-44 my-8 rounded p-8 scale-80 hover:scale-95 ease-in duration-500">
               <div>
                 <img src={image2} alt="" />
               </div>

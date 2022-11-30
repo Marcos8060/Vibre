@@ -32,7 +32,7 @@
   }
   
   .container .box:hover .content {
-    transform: translate(4.5rem, 4.5rem);
+    transform: translate(2.7rem, 2.7rem);
   }
   .imgBox {
     position: absolute;

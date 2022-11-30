@@ -11,7 +11,7 @@ const Featured: React.FC = () => {
     <>
       <section className="px-16">
         <h1 className="text-4xl font-semibold">Featured Sounds</h1>
-        <div className="flex gap-8 my-8">
+        <div className="flex gap-16 my-8">
           <div className="">
             <div>
               <img className="rounded scale-80 hover:scale-95 ease-in duration-500 cursor-pointer" src={face} alt="" />
@@ -19,17 +19,6 @@ const Featured: React.FC = () => {
           </div>
           <div className="w-7/12">
             <h1 className="text-3xl font-semibold mb-4">Top Brands</h1>
-            {/* <div className="flex gap-4">
-              <div>
-                <img className="rounded" src={image} alt="" />
-              </div>
-              <div>
-                <img className="rounded" src={image3} alt="" />
-              </div>
-            </div>
-            <div className="my-8">
-              <img className="rounded" src={image2} alt="" />
-            </div> */}
             <div className="container">
               <div className="lg:flex">
                 <div className="box">
