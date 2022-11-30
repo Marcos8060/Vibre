@@ -1,4 +1,5 @@
 import React from "react";
+import { MdSend } from 'react-icons/md'
 
 const Footer: React.FC = () => {
   return (
@@ -23,8 +24,11 @@ const Footer: React.FC = () => {
         <div>
         <h1 className="font-bold text-2xl underline my-4">Our Newsletter</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, dignissimos!</p>
-        <form>
-          <input className="bg-white px-12 py-4" type="text" />
+        <form className="flex items-center">
+          <input placeholder="Email..." className="bg-white px-8 h-7" type="text" />
+          <button className="bg-black h-7">
+            <MdSend className="text-3xl"/>
+          </button>
         </form>
         </div>
       </div>

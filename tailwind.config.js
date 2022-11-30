@@ -12,6 +12,7 @@ module.exports = {
       green: "#F6F9FC",
     },
     height: {
+      7: "7vh",
       10: "10vh",
       14: "14vh",
       20: "20vh",
