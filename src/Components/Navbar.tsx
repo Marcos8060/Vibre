@@ -1,15 +1,14 @@
 import React from "react";
-import { BsCartFill } from "react-icons/bs";
 import { FaUserCircle } from "react-icons/fa";
 import { AiOutlineShopping, AiOutlineSearch } from "react-icons/ai";
 
 const Navbar = () => {
   return (
     <>
-      <section className="bg-white shadow-2xl h-24 px-12 py-8">
+      <section className="bg-black text-white shadow h-24 px-12 py-8">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-4xl font-bold text-red">Vibre</h1>
+            <h1 className="text-4xl font-bold">Vibre</h1>
           </div>
           <div>
             <input
@@ -19,9 +18,9 @@ const Navbar = () => {
             />
           </div>
           <div className="flex items-center justify-between gap-12">
-            <FaUserCircle className="text-4xl text-grey" />
+            <FaUserCircle className="text-4xl text-white" />
             <div className="flex">
-              <AiOutlineShopping className="text-4xl text-grey" />
+              <AiOutlineShopping className="text-4xl text-white" />
             </div>
           </div>
         </div>

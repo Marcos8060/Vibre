@@ -10,12 +10,12 @@ module.exports = {
       grey: "#6F7072",
       red: "#A30216",
       green: "#F6F9FC",
-      black: '#737A86'
     },
     height: {
       10: "10vh",
       14: "14vh",
       20: "20vh",
+      40: "40vh",
       50: "50vh",
       60: "60vh",
       70: "70vh",

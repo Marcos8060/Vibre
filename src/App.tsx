@@ -1,14 +1,16 @@
 import React from 'react';
-import Collection from './Components/Collection';
 import Navbar from './Components/Navbar';
 import BodyOne from './Components/BodyOne';
+import Featured from './Components/Featured';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <>
     <Navbar />
     <BodyOne />
-    {/* <Collection /> */}
+    <Featured />
+    <Footer />
     </>
   );
 }

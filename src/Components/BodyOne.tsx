@@ -38,9 +38,9 @@ const BodyOne: React.FC = () => {
   };
   return (
     <>
-      <section className="bg-green py-12 px-16">
+      <section className="py-12 px-16">
         <div className="flex gap-12">
-          <div className="w-5/12 bg-white shadow-xl rounded hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 py-12 px-4">
+          <div className="w-5/12 scale-80 hover:scale-95 ease-in duration-500 bg-gray rounded hover:shadow cursor-pointer transition ease-in-out delay-150 py-12 px-4">
             <h1 className="text-center text-2xl font-bold text-black">
               Introducing The latest Sneaker Collection
             </h1>
@@ -100,7 +100,7 @@ const BodyOne: React.FC = () => {
                 </span>
               </div>
             </div>
-            <div className="flex items-center bg-red h-40 my-8 rounded p-8">
+            <div className="flex items-center cursor-pointer bg-red h-40 my-8 rounded p-8 scale-80 hover:scale-95 ease-in duration-500">
               <div>
                 <img src={image2} alt="" />
               </div>
@@ -108,7 +108,9 @@ const BodyOne: React.FC = () => {
                 <h1 className="text-white font-bold text-4xl">
                   Nike Collections
                 </h1>
-                <p className="text-white">Get the most exciting deals starting at ksh 1,000</p>
+                <p className="text-white">
+                  Get the most exciting deals starting at ksh 1,000
+                </p>
               </div>
             </div>
           </div>
