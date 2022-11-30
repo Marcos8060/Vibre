@@ -8,13 +8,16 @@ module.exports = {
       white: "#FFFFFF",
       gray: "#CACACA",
       grey: "#6F7072",
-      red: "#D23F57",
+      red: "#A30216",
       green: "#F6F9FC",
-      black: '#2B3445'
+      black: '#737A86'
     },
     height: {
       10: "10vh",
+      14: "14vh",
       20: "20vh",
+      50: "50vh",
+      60: "60vh",
       70: "70vh",
       80: "80vh",
       90: "90vh",

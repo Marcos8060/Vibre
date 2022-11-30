@@ -1,5 +1,7 @@
 import React from "react";
-import image from "../images/3.png";
+import image from "../images/7.png";
+import image2 from "../images/4.png";
+import image3 from "../images/8.png";
 // OWL CAROUSEL
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -38,29 +40,75 @@ const BodyOne: React.FC = () => {
     <>
       <section className="bg-green py-12 px-16">
         <div className="flex gap-12">
-          <div className="w-3/12 bg-white hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 py-12 px-4">
+          <div className="w-5/12 bg-white shadow-xl rounded hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 py-12 px-4">
             <h1 className="text-center text-2xl font-bold text-black">
               Introducing The latest Sneaker Collection
             </h1>
             <img className="h-70" src={image} alt="" />
           </div>
-          <div>
+          <div className="w-7/12 h-70">
             <h1 className="text-3xl font-semibold mb-4">Top Picks</h1>
-            <div className="flex gap-8">
-              <div className="bg-gray rounded">
-                <img className="w-10" src={image} alt="" />
+            <div className="grid grid-cols-5 gap-8">
+              <div>
+                <div className="bg-gray cursor-pointer rounded">
+                  <img className="w-10" src={image3} alt="" />
+                </div>
+                <h1 className="font-bold text-black">Nike Air</h1>
+                <span className="text-red font-bold">ksh 1,300</span>
+                <span className="mx-3 line-through font-bold text-grey">
+                  ksh 1,300
+                </span>
               </div>
-              <div className="bg-gray rounded">
-                <img className="w-10" src={image} alt="" />
+              <div>
+                <div className="bg-gray rounded">
+                  <img className="w-10" src={image} alt="" />
+                </div>
+                <h1 className="font-bold text-black">Nike Air</h1>
+                <span className="text-red font-bold">ksh 1,300</span>
+                <span className="mx-3 line-through font-bold text-grey">
+                  ksh 1,300
+                </span>
               </div>
-              <div className="bg-gray rounded">
-                <img className="w-10" src={image} alt="" />
+              <div>
+                <div className="bg-gray rounded">
+                  <img className="w-10" src={image3} alt="" />
+                </div>
+                <h1 className="font-bold text-black">Nike Air</h1>
+                <span className="text-red font-bold">ksh 1,300</span>
+                <span className="mx-3 line-through font-bold text-grey">
+                  ksh 1,300
+                </span>
               </div>
-              <div className="bg-gray rounded">
-                <img className="w-10" src={image} alt="" />
+              <div>
+                <div className="bg-gray rounded">
+                  <img className="w-10" src={image} alt="" />
+                </div>
+                <h1 className="font-bold text-black">Nike Air</h1>
+                <span className="text-red font-bold">ksh 1,300</span>
+                <span className="mx-3 line-through font-bold text-grey">
+                  ksh 1,300
+                </span>
               </div>
-              <div className="bg-gray rounded">
-                <img className="w-10" src={image} alt="" />
+              <div>
+                <div className="bg-gray rounded">
+                  <img className="w-10" src={image3} alt="" />
+                </div>
+                <h1 className="font-bold text-black">Nike Air</h1>
+                <span className="text-red font-bold">ksh 1,300</span>
+                <span className="mx-3 line-through font-bold text-grey">
+                  ksh 1,300
+                </span>
+              </div>
+            </div>
+            <div className="flex items-center bg-red h-40 my-8 rounded p-8">
+              <div>
+                <img src={image2} alt="" />
+              </div>
+              <div>
+                <h1 className="text-white font-bold text-4xl">
+                  Nike Collections
+                </h1>
+                <p className="text-white">Get the most exciting deals starting at ksh 1,000</p>
               </div>
             </div>
           </div>
