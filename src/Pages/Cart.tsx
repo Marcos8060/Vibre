@@ -93,6 +93,7 @@ const Cart = () => {
                     <p className="text-xl">ksh 4,400</p>
                 </div>
                 <hr className="text-grey"/>
+                <button className="bg-red p-3 text-white w-full my-4 rounded text-xl">Checkout</button>
             </div>
           </div>
         </div>
