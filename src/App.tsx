@@ -1,14 +1,14 @@
 import React from 'react';
 import Collection from './Components/Collection';
-import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
+import BodyOne from './Components/BodyOne';
 
 function App() {
   return (
     <>
     <Navbar />
-    <Hero />
-    <Collection />
+    <BodyOne />
+    {/* <Collection /> */}
     </>
   );
 }
