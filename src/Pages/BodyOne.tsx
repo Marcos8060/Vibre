@@ -6,6 +6,8 @@ import image3 from "../images/8.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import Navbar from "../Components/Navbar";
+import Featured from "../Components/Featured";
 
 const BodyOne: React.FC = () => {
   const options = {
@@ -38,6 +40,7 @@ const BodyOne: React.FC = () => {
   };
   return (
     <>
+     <Navbar />
       <section className="py-12 px-16">
         <div className="flex gap-12">
           <div className="w-5/12 scale-80 hover:scale-95 ease-in duration-500 bg-gray rounded hover:shadow cursor-pointer transition ease-in-out delay-150 py-12 px-4">
@@ -116,6 +119,7 @@ const BodyOne: React.FC = () => {
           </div>
         </div>
       </section>
+      <Featured />
     </>
   );
 };
