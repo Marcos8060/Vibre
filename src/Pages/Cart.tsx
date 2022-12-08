@@ -81,7 +81,7 @@ const Cart = () => {
                 <div className="text-4xl text-red font-bold">x</div>
               </div>
             </div>
-            <div className="bg-green h-40 mt-8 shadow rounded-xl p-4 w-4/12 mx-auto">
+            <div className="bg-white shadow-xl h-40 mt-8 shadow rounded-xl p-4 w-4/12 mx-auto">
                 <h1 className="text-3xl">Order Summary</h1>
                 <div className="flex items-center justify-between my-4">
                     <h1 className="text-xl">SubTotal</h1>
