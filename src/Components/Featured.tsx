@@ -1,100 +1,91 @@
 import React from "react";
-import image from "../images/head1.jpg";
-import image2 from "../images/head2.jpg";
-import image3 from "../images/head3.jpg";
-import image4 from "../images/head4.jpg";
-import face from "../images/face.jpeg";
-import lady from "../images/lady.jpg";
+import image from "../images/7.png";
+import { AiOutlineShopping, AiFillEye } from "react-icons/ai";
 
 const Featured: React.FC = () => {
   return (
     <>
       <section className="px-16">
-        <h1 className="text-4xl font-semibold">Featured Sounds</h1>
-        <div className="flex gap-16 my-8">
-          <div className="">
-            <div>
-              <img className="rounded scale-80 hover:scale-95 ease-in duration-500 cursor-pointer" src={face} alt="" />
+        <h1 className="text-4xl font-semibold">Featured Collections</h1>
+        <h1 className="text-3xl font-semibold mb-4">Top Brands</h1>
+        <div className="grid grid-cols-4 gap-4 my-12">
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
+            <div className="bg-gray rounded">
+              <img
+                className="w-72 group-hover:rotate-3 duration-700 group-hover:scale-150 transition-transform"
+                src={image}
+                alt=""
+              />
             </div>
-          </div>
-          <div className="w-7/12">
-            <h1 className="text-3xl font-semibold mb-4">Top Brands</h1>
-            <div className="container">
-              <div className="lg:flex">
-                <div className="box">
-                  <div className="imgBox">
-                    <img className="rounded" src={image} alt="" />
-                  </div>
-                  <div className="content">
-                    <h2>
-                      Generic <br />
-                      <span className="cursor-pointer hover:text-red hover:font-semibold">Add to Cart</span>
-                    </h2>
-                  </div>
-                </div>
-                <div className="box">
-                  <div className="imgBox">
-                    <img className="rounded" src={image2} alt="" />
-                  </div>
-                  <div className="content">
-                    <h2>
-                      Production<br />
-                      <span className="cursor-pointer hover:text-red hover:font-semibold">Add to Cart</span>
-                    </h2>
-                  </div>
-                </div>
-                <div className="box">
-                  <div className="imgBox">
-                    <img className="rounded" src={image3} alt="" />
-                  </div>
-                  <div className="content">
-                    <h2>
-                       Sony XP
-                      <span className="cursor-pointer hover:text-red hover:font-semibold">
-                        <br /> Add to Cart
-                      </span>
-                    </h2>
-                  </div>
-                </div>
+            <div className="bg-black py-2 duration-500 opacity-90 absolute inset-0 flex-flex-col items-center justify-center px-9 text-center translate-y-[85%] group-hover:translate-y-[60%] transition-all">
+              <h1 className="mb-8 text-white">Nike Shoes</h1>
+              <div className="flex items-center justify-between">
+                <AiOutlineShopping className="text-white text-4xl" />
+                <AiFillEye className="text-white text-4xl" />
               </div>
             </div>
-            <div className="container">
-              <div className="lg:flex">
-                <div className="box">
-                  <div className="imgBox">
-                    <img className="rounded" src={image4} alt="" />
-                  </div>
-                  <div className="content">
-                    <h2>
-                      Generic <br />
-                      <span className="cursor-pointer hover:text-red hover:font-semibold">Add to Cart</span>
-                    </h2>
-                  </div>
-                </div>
-                <div className="box">
-                  <div className="imgBox">
-                    <img className="rounded" src={image2} alt="" />
-                  </div>
-                  <div className="content">
-                    <h2>
-                      Production<br />
-                      <span className="cursor-pointer hover:text-red hover:font-semibold">Add to Cart</span>
-                    </h2>
-                  </div>
-                </div>
-                <div className="box">
-                  <div className="imgBox">
-                    <img className="rounded" src={image3} alt="" />
-                  </div>
-                  <div className="content">
-                    <h2>
-                       Sony XP
-                      <span className="cursor-pointer hover:text-red hover:font-semibold">
-                        <br /> Add to Cart
-                      </span>
-                    </h2>
-                  </div>
-                </div>
+          </div>
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
+            <div className="bg-gray rounded">
+              <img
+                className="w-80 group-hover:rotate-3 duration-700 group-hover:scale-150 transition-transform"
+                src={image}
+                alt=""
+              />
+            </div>
+            <div className="bg-black py-2 duration-500 opacity-90 absolute inset-0 flex-flex-col items-center justify-center px-9 text-center translate-y-[85%] group-hover:translate-y-[60%] transition-all">
+              <h1 className="mb-8 text-white">Nike Shoes</h1>
+              <div className="flex items-center justify-between">
+                <AiOutlineShopping className="text-white text-4xl" />
+                <AiFillEye className="text-white text-4xl" />
+              </div>
+            </div>
+          </div>
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
+            <div className="bg-gray rounded">
+              <img
+                className="w-80 group-hover:rotate-3 duration-700 group-hover:scale-150 transition-transform"
+                src={image}
+                alt=""
+              />
+            </div>
+            <div className="bg-black py-2 duration-500 opacity-90 absolute inset-0 flex-flex-col items-center justify-center px-9 text-center translate-y-[85%] group-hover:translate-y-[60%] transition-all">
+              <h1 className="mb-8 text-white">Nike Shoes</h1>
+              <div className="flex items-center justify-between">
+                <AiOutlineShopping className="text-white text-4xl" />
+                <AiFillEye className="text-white text-4xl" />
+              </div>
+            </div>
+          </div>
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
+            <div className="bg-gray rounded">
+              <img
+                className="w-80 group-hover:rotate-3 duration-700 group-hover:scale-150 transition-transform"
+                src={image}
+                alt=""
+              />
+            </div>
+            <div className="bg-black py-2 duration-500 opacity-90 absolute inset-0 flex-flex-col items-center justify-center px-9 text-center translate-y-[85%] group-hover:translate-y-[60%] transition-all">
+              <h1 className="mb-8 text-white">Nike Shoes</h1>
+              <div className="flex items-center justify-between">
+                <AiOutlineShopping className="text-white text-4xl" />
+                <AiFillEye className="text-white text-4xl" />
+              </div>
+            </div>
+          </div>
+          <div className="group relative items-center justify-center overflow-hidden cursor-pointer">
+            <div className="bg-gray rounded">
+              <img
+                className="w-80 group-hover:rotate-3 duration-700 group-hover:scale-150 transition-transform"
+                src={image}
+                alt=""
+              />
+            </div>
+            <div className="bg-black py-2 duration-500 opacity-90 absolute inset-0 flex-flex-col items-center justify-center px-9 text-center translate-y-[85%] group-hover:translate-y-[60%] transition-all">
+              <h1 className="mb-8 text-white">Nike Shoes</h1>
+              <div className="flex items-center justify-between">
+                <AiOutlineShopping className="text-white text-4xl" />
+                <AiFillEye className="text-white text-4xl" />
               </div>
             </div>
           </div>

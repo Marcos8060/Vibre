@@ -12,14 +12,20 @@
 }
 
 
-.container {
+.imgBox{
+  width: 20rem;
+  height: 20rem;
+  padding-top: 1rem;
+}
+
+/* .container1 {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
-  .container .box {
+  .container1 .box {
     position: relative;
     width: 20rem;
     height: 20rem;
@@ -27,11 +33,11 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .container .box:hover .imgBox {
+  .container1 .box:hover .imgBox {
     transform: translate(-1.5rem, -1.5rem);
   }
   
-  .container .box:hover .content {
+  .container1 .box:hover .content {
     transform: translate(2.7rem, 2.7rem);
   }
   .imgBox {
@@ -81,11 +87,11 @@
     letter-spacing: 2px;
   }
 @media (max-width: 600px) {
-    .container .box:hover .content {
+    .container1 .box:hover .content {
       transform: translate(0, 3.5rem);
     }
-    .container .box:hover .imgBox {
+    .container1 .box:hover .imgBox {
       transform: translate(0, -3.5rem);
     }
-}
+} */
 
