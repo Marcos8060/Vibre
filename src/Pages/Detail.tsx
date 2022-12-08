@@ -10,8 +10,8 @@ const Detail: React.FC = () => {
     <Navbar />
       <section className="px-16 py-12">
         <div className="flex items-center justify-between gap-12">
-          <div className="bg-gray w-4/12">
-            <img className="" src={image} alt="" />
+          <div className="bg-gray group w-4/12">
+            <img className="cursor-pointer group-hover:scale-150 duration-700 transition-transform" src={image} alt="" />
           </div>
           <div className="w-7/12">
             <h1 className="text-3xl my-4">Red Sneaker</h1>

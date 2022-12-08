@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div>
-        <h1 className="font-bold text-2xl underline my-4">Our Newsletter</h1>
+        <h1 className="font-bold text-2xl underline my-4">Subscribe to Our Newsletter</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, dignissimos!</p>
         <form className="flex items-center">
           <input placeholder="Email..." className="bg-white px-8 h-7" type="text" />

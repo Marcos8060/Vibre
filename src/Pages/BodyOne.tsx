@@ -43,11 +43,11 @@ const BodyOne: React.FC = () => {
      <Navbar />
       <section className="py-12 px-16">
         <div className="flex gap-12">
-          <div className="w-5/12 scale-80 hover:scale-95 ease-in duration-500 bg-gray rounded hover:shadow cursor-pointer transition ease-in-out delay-150 py-12 px-4">
+          <div className="w-5/12 scale-80 group ease-in duration-500 bg-gray rounded hover:shadow cursor-pointer transition ease-in-out delay-150 py-12 px-4">
             <h1 className="text-center text-2xl font-bold text-black">
               Introducing The latest Sneaker Collection
             </h1>
-            <img className="h-70" src={image} alt="" />
+            <img className="h-70 group-hover:scale-125 duration-700 transition-transform" src={image} alt="" />
           </div>
           <div className="w-7/12 h-70">
             <h1 className="text-3xl font-semibold mb-4">Top Picks</h1>
@@ -93,9 +93,9 @@ const BodyOne: React.FC = () => {
                 </span>
               </div>
             </div>
-            <div className="flex items-center cursor-pointer bg-red h-44 my-8 rounded p-8 scale-80 hover:scale-95 ease-in duration-500">
-              <div>
-                <img src={image2} alt="" />
+            <div className="flex items-center cursor-pointer bg-red h-44 my-8 rounded p-8">
+              <div className="group">
+                <img className="group-hover:scale-125 duration-700 transition-transform" src={image2} alt="" />
               </div>
               <div>
                 <h1 className="text-white font-bold text-4xl">
